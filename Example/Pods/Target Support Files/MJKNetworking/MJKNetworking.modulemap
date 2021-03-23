@@ -1,0 +1,6 @@
+framework module MJKNetworking {
+  umbrella header "MJKNetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - MJKNetworking (0.1.0)
+
+DEPENDENCIES:
+  - MJKNetworking (from `../`)
+
+EXTERNAL SOURCES:
+  MJKNetworking:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MJKNetworking: 72a98027f4617efdde8a56d19880ff28c3dde790
+
+PODFILE CHECKSUM: 2a7ea86645ce02307df2df3a0f5a562674e05c1a
+
+COCOAPODS: 1.10.0
