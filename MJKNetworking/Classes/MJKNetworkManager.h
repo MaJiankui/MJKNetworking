@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface MJKNetworkManager : NSObject
 
+- (void)testPrint:(NSString *)text;
+
 @end
 
 NS_ASSUME_NONNULL_END
