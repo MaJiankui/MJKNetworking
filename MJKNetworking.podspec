@@ -10,7 +10,8 @@ Pod::Spec.new do |s|
   s.name             = 'MJKNetworking'
 # 默认版本号
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MJKNetworking.'
+# summary 需要修改后边的描述信息
+  s.summary          = '这个库 MJKNetworking 的作用就是用来ddee的'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -19,7 +20,9 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
+# TODO 日志标签，需要修改
 TODO: Add long description of the pod here.
+这个是个标签必须添加，否则语法上会报错.
                        DESC
 
 # 主页
