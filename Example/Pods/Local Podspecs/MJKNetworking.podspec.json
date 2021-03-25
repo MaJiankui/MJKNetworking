@@ -1,8 +1,8 @@
 {
   "name": "MJKNetworking",
   "version": "0.1.0",
-  "summary": "A short description of MJKNetworking.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "这个库 MJKNetworking 的作用就是用来ddee的",
+  "description": "# TODO 日志标签，需要修改\nTODO: Add long description of the pod here.\n这个是个标签必须添加，否则语法上会报错.",
   "homepage": "https://github.com/MaJiankui/MJKNetworking",
   "license": {
     "type": "MIT",

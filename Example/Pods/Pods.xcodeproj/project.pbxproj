@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		045A852AD699E23DD8732E2827EC6361 /* MJKNetworkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CF9353185A4354BE901E2B4336920E29 /* MJKNetworkManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0A7F7CBC0DF21B86AD75AB418FF09A0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		124663E18A14FF258C8E6D43CF4C7893 /* MJKNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5685CAB8D89F59A5AB0B20537A9E2 /* MJKNetworking-dummy.m */; };
-		6169F1797BC1B8E3FFE5922CA28E1C5B /* MJKNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2147153343BDD94D91A09C4C47927C3C /* MJKNetworkManager.m */; };
+		104F501BC8515AA587A6B156F736E43C /* MJKNetworkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CB88C3C468BC40788996268CBA0E5744 /* MJKNetworkManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1986DCCBCDEB4F03C96B1EB12F6C56F8 /* NSDate+MJKMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A5AB867A33AE84C4045D8D162A7785 /* NSDate+MJKMethods.m */; };
+		2EC3A73D597E77BC060B9A51EF0CD394 /* MJKNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D144297CDE18C6F69D4318D35100B5F /* MJKNetworking-dummy.m */; };
+		50EEF82DFA5649B50B8730552C4A5769 /* NSDate+MJKMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = ACFB7A41195615A57B2303780E07771C /* NSDate+MJKMethods.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		513C4D21F6996BA90A3ECFD5C0139051 /* MJKCountDownManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 634D8FDAA6D1ABFF57B2992628F4F89E /* MJKCountDownManger.m */; };
+		5F8DC6813B5789BB53CDB91FF3D8DC4E /* NSString+MJKUISize.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6A845F3A5B3E849966721D616C8C2F /* NSString+MJKUISize.m */; };
 		624F40203A1C712C260579B2580705BF /* Pods-MJKNetworking_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 150DB13D9AB5FDCEEE992744F9EA45D6 /* Pods-MJKNetworking_Example-dummy.m */; };
-		C6AF24B8DBA6237780B1883B6223F4D9 /* MJKNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53DF228660F3C15DFF13200D13D49083 /* MJKNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E453AB7139C4D260061ABF79028D7E76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		87FB43D87C5FE74FFF985BD2DA0A126B /* NSString+MJKMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 4862BC648BDFB19D6A62F1CEC9C47C92 /* NSString+MJKMethods.m */; };
+		8DA18E9CE4D47CB370F9864463BE2DF9 /* NSString+MJKUISize.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EF41F0F9FB72DF4F351C631AB20AEB6 /* NSString+MJKUISize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		989C0AAD8DE1F91817D59923E54B1223 /* MJKNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A06419AB613BFE0D1F81C5E01FEF7CF /* MJKNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4027A0A23C9C99696F6B3D5E254B95B /* MJKCountDownManger.h in Headers */ = {isa = PBXBuildFile; fileRef = 5623E4816BF93021B1885091B079696E /* MJKCountDownManger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7759FF16A5ADFC8361ADC0EE421BFB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DECD310A3FCE4DB55C618B1402DF8EE6 /* MJKNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 070B05592282E755ECDA6F7D6E677823 /* MJKNetworkManager.m */; };
+		F1CB92FD442D5291A412B055A319D530 /* NSString+MJKMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = A368AD331BFA46D1B59A54FA882BD3A0 /* NSString+MJKMethods.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF01FD3AB363050242B4DBA542DB54D9 /* Pods-MJKNetworking_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6476890D3A3B8D2CEEB17A532ECB3A1 /* Pods-MJKNetworking_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DD5C593926AC292B0AE90362F2A4BE89 /* PBXContainerItemProxy */ = {
+		AE2C1CBB9DE0D2DBCE539C356DC73863 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -30,29 +38,37 @@
 /* Begin PBXFileReference section */
 		01EF11BE63A8B5CF549FC0760CD654E5 /* Pods_MJKNetworking_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MJKNetworking_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		057E29584D14E1BDD9666D545BB1FA03 /* Pods-MJKNetworking_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MJKNetworking_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0F5788B66721F8CC8EC52895997758E9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		070B05592282E755ECDA6F7D6E677823 /* MJKNetworkManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJKNetworkManager.m; path = MJKNetworking/Classes/MJKNetworkManager.m; sourceTree = "<group>"; };
+		08A5AB867A33AE84C4045D8D162A7785 /* NSDate+MJKMethods.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+MJKMethods.m"; path = "MJKNetworking/Classes/NSDate+MJKMethods.m"; sourceTree = "<group>"; };
+		0B6A845F3A5B3E849966721D616C8C2F /* NSString+MJKUISize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MJKUISize.m"; path = "MJKNetworking/Classes/NSString+MJKUISize.m"; sourceTree = "<group>"; };
+		0D144297CDE18C6F69D4318D35100B5F /* MJKNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJKNetworking-dummy.m"; sourceTree = "<group>"; };
 		140AD6E25853F0CA48E7F05E87B0A211 /* Pods-MJKNetworking_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MJKNetworking_Example-Info.plist"; sourceTree = "<group>"; };
 		150DB13D9AB5FDCEEE992744F9EA45D6 /* Pods-MJKNetworking_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MJKNetworking_Example-dummy.m"; sourceTree = "<group>"; };
-		2147153343BDD94D91A09C4C47927C3C /* MJKNetworkManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJKNetworkManager.m; path = MJKNetworking/Classes/MJKNetworkManager.m; sourceTree = "<group>"; };
-		480858903567880BEEFE34A9093BC667 /* MJKNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MJKNetworking.modulemap; sourceTree = "<group>"; };
-		4A93022A20D15B320AE9CF4554152E8D /* MJKNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MJKNetworking.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		3928E787F46951CB30FD1E52ECECD85B /* MJKNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJKNetworking.debug.xcconfig; sourceTree = "<group>"; };
+		4862BC648BDFB19D6A62F1CEC9C47C92 /* NSString+MJKMethods.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MJKMethods.m"; path = "MJKNetworking/Classes/NSString+MJKMethods.m"; sourceTree = "<group>"; };
+		498CEC6D35413BB9C3D4335BE8C1DEFE /* MJKNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJKNetworking.release.xcconfig; sourceTree = "<group>"; };
 		4FFCD9BC1C28DBE68960D5579D69CE6F /* Pods-MJKNetworking_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MJKNetworking_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		53DF228660F3C15DFF13200D13D49083 /* MJKNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJKNetworking-umbrella.h"; sourceTree = "<group>"; };
-		59612778AC8DC05D1B766ADE6DF63258 /* MJKNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MJKNetworking-Info.plist"; sourceTree = "<group>"; };
-		603D93B394DFBD11B6B083AFE473FC47 /* MJKNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJKNetworking.release.xcconfig; sourceTree = "<group>"; };
-		61E944E1407C92A9B7F0082EE7F992AC /* MJKNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJKNetworking-prefix.pch"; sourceTree = "<group>"; };
+		5623E4816BF93021B1885091B079696E /* MJKCountDownManger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJKCountDownManger.h; path = MJKNetworking/Classes/MJKCountDownManger.h; sourceTree = "<group>"; };
+		577EF4185D2F1291595A2C7B31A9FB13 /* MJKNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MJKNetworking.modulemap; sourceTree = "<group>"; };
+		58E3E491BFD42DDBEAC39C61545DD845 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		634D8FDAA6D1ABFF57B2992628F4F89E /* MJKCountDownManger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJKCountDownManger.m; path = MJKNetworking/Classes/MJKCountDownManger.m; sourceTree = "<group>"; };
+		68D001F4334F1AA3B0BB55C78929BC23 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6B167AC345669455B8D96E827783DFA9 /* Pods-MJKNetworking_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MJKNetworking_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7CE5685CAB8D89F59A5AB0B20537A9E2 /* MJKNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJKNetworking-dummy.m"; sourceTree = "<group>"; };
+		7A06419AB613BFE0D1F81C5E01FEF7CF /* MJKNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJKNetworking-umbrella.h"; sourceTree = "<group>"; };
 		854785766ED11017D247562D4E1B57BF /* Pods-MJKNetworking_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MJKNetworking_Example.modulemap"; sourceTree = "<group>"; };
+		8EF41F0F9FB72DF4F351C631AB20AEB6 /* NSString+MJKUISize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MJKUISize.h"; path = "MJKNetworking/Classes/NSString+MJKUISize.h"; sourceTree = "<group>"; };
 		927531D4A2C83508567E0131042216D6 /* Pods-MJKNetworking_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MJKNetworking_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EBE461F8FECA4F790F000BA340747B6 /* MJKNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MJKNetworking.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A368AD331BFA46D1B59A54FA882BD3A0 /* NSString+MJKMethods.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MJKMethods.h"; path = "MJKNetworking/Classes/NSString+MJKMethods.h"; sourceTree = "<group>"; };
 		A6476890D3A3B8D2CEEB17A532ECB3A1 /* Pods-MJKNetworking_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MJKNetworking_Example-umbrella.h"; sourceTree = "<group>"; };
-		AE4E624F61DFE00D8CC34493C27ECC32 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		C15E727BB97935D797D9B21E1AD286D4 /* MJKNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJKNetworking.debug.xcconfig; sourceTree = "<group>"; };
+		ACFB7A41195615A57B2303780E07771C /* NSDate+MJKMethods.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+MJKMethods.h"; path = "MJKNetworking/Classes/NSDate+MJKMethods.h"; sourceTree = "<group>"; };
 		C73CE712ACE3401A4BBE905F7C3164AF /* Pods-MJKNetworking_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MJKNetworking_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CB88C3C468BC40788996268CBA0E5744 /* MJKNetworkManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJKNetworkManager.h; path = MJKNetworking/Classes/MJKNetworkManager.h; sourceTree = "<group>"; };
 		CE6628DE5E8C94FF94263534554D1C0C /* MJKNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJKNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF9353185A4354BE901E2B4336920E29 /* MJKNetworkManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJKNetworkManager.h; path = MJKNetworking/Classes/MJKNetworkManager.h; sourceTree = "<group>"; };
+		EE0CBBE806DFCA02C3D4829E0780A8A2 /* MJKNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJKNetworking-prefix.pch"; sourceTree = "<group>"; };
+		F256A75ECB11C7299F14791EC2050D19 /* MJKNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MJKNetworking-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,27 +80,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		552CE4237230661873785F847EC48A54 /* Frameworks */ = {
+		7A3EAEEA2CEC5D729025C7A6C8D0AE39 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E453AB7139C4D260061ABF79028D7E76 /* Foundation.framework in Frameworks */,
+				C7759FF16A5ADFC8361ADC0EE421BFB7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0DB9E45EF3B6259FF1AB28E2F1D7ED88 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				0F5788B66721F8CC8EC52895997758E9 /* LICENSE */,
-				4A93022A20D15B320AE9CF4554152E8D /* MJKNetworking.podspec */,
-				AE4E624F61DFE00D8CC34493C27ECC32 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		4DC7C03B8CA4D338305AA2F263FFFF4C /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -102,28 +108,21 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7516E6B8E9AEB264665AF8B0E452F4C5 /* Support Files */ = {
+		5CADEC4C53E0A732A4C567955FCB72BE /* MJKNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				480858903567880BEEFE34A9093BC667 /* MJKNetworking.modulemap */,
-				7CE5685CAB8D89F59A5AB0B20537A9E2 /* MJKNetworking-dummy.m */,
-				59612778AC8DC05D1B766ADE6DF63258 /* MJKNetworking-Info.plist */,
-				61E944E1407C92A9B7F0082EE7F992AC /* MJKNetworking-prefix.pch */,
-				53DF228660F3C15DFF13200D13D49083 /* MJKNetworking-umbrella.h */,
-				C15E727BB97935D797D9B21E1AD286D4 /* MJKNetworking.debug.xcconfig */,
-				603D93B394DFBD11B6B083AFE473FC47 /* MJKNetworking.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MJKNetworking";
-			sourceTree = "<group>";
-		};
-		8528232EAC9AEE9893854A3CB982272E /* MJKNetworking */ = {
-			isa = PBXGroup;
-			children = (
-				CF9353185A4354BE901E2B4336920E29 /* MJKNetworkManager.h */,
-				2147153343BDD94D91A09C4C47927C3C /* MJKNetworkManager.m */,
-				0DB9E45EF3B6259FF1AB28E2F1D7ED88 /* Pod */,
-				7516E6B8E9AEB264665AF8B0E452F4C5 /* Support Files */,
+				5623E4816BF93021B1885091B079696E /* MJKCountDownManger.h */,
+				634D8FDAA6D1ABFF57B2992628F4F89E /* MJKCountDownManger.m */,
+				CB88C3C468BC40788996268CBA0E5744 /* MJKNetworkManager.h */,
+				070B05592282E755ECDA6F7D6E677823 /* MJKNetworkManager.m */,
+				ACFB7A41195615A57B2303780E07771C /* NSDate+MJKMethods.h */,
+				08A5AB867A33AE84C4045D8D162A7785 /* NSDate+MJKMethods.m */,
+				A368AD331BFA46D1B59A54FA882BD3A0 /* NSString+MJKMethods.h */,
+				4862BC648BDFB19D6A62F1CEC9C47C92 /* NSString+MJKMethods.m */,
+				8EF41F0F9FB72DF4F351C631AB20AEB6 /* NSString+MJKUISize.h */,
+				0B6A845F3A5B3E849966721D616C8C2F /* NSString+MJKUISize.m */,
+				D5B6517E74CF2A4002FF09176B1ADC44 /* Pod */,
+				DF4DC7D69F4734F4E455E93E2C1BC444 /* Support Files */,
 			);
 			name = MJKNetworking;
 			path = ../..;
@@ -154,19 +153,11 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B78FDF95DCD758EF6E5BA112FF64AD31 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8528232EAC9AEE9893854A3CB982272E /* MJKNetworking */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				B78FDF95DCD758EF6E5BA112FF64AD31 /* Development Pods */,
+				EAC4241F00AEF74E0B8BE2535492BF22 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				4DC7C03B8CA4D338305AA2F263FFFF4C /* Products */,
 				A932DFF95BF17F5D9A7E1665392B78C8 /* Targets Support Files */,
@@ -181,15 +172,52 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D5B6517E74CF2A4002FF09176B1ADC44 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				58E3E491BFD42DDBEAC39C61545DD845 /* LICENSE */,
+				9EBE461F8FECA4F790F000BA340747B6 /* MJKNetworking.podspec */,
+				68D001F4334F1AA3B0BB55C78929BC23 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		DF4DC7D69F4734F4E455E93E2C1BC444 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				577EF4185D2F1291595A2C7B31A9FB13 /* MJKNetworking.modulemap */,
+				0D144297CDE18C6F69D4318D35100B5F /* MJKNetworking-dummy.m */,
+				F256A75ECB11C7299F14791EC2050D19 /* MJKNetworking-Info.plist */,
+				EE0CBBE806DFCA02C3D4829E0780A8A2 /* MJKNetworking-prefix.pch */,
+				7A06419AB613BFE0D1F81C5E01FEF7CF /* MJKNetworking-umbrella.h */,
+				3928E787F46951CB30FD1E52ECECD85B /* MJKNetworking.debug.xcconfig */,
+				498CEC6D35413BB9C3D4335BE8C1DEFE /* MJKNetworking.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MJKNetworking";
+			sourceTree = "<group>";
+		};
+		EAC4241F00AEF74E0B8BE2535492BF22 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CADEC4C53E0A732A4C567955FCB72BE /* MJKNetworking */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3AC2573BE56253CC1D750B7BF391C86A /* Headers */ = {
+		969A1A99D6384D7065369134F97341EB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6AF24B8DBA6237780B1883B6223F4D9 /* MJKNetworking-umbrella.h in Headers */,
-				045A852AD699E23DD8732E2827EC6361 /* MJKNetworkManager.h in Headers */,
+				A4027A0A23C9C99696F6B3D5E254B95B /* MJKCountDownManger.h in Headers */,
+				989C0AAD8DE1F91817D59923E54B1223 /* MJKNetworking-umbrella.h in Headers */,
+				104F501BC8515AA587A6B156F736E43C /* MJKNetworkManager.h in Headers */,
+				50EEF82DFA5649B50B8730552C4A5769 /* NSDate+MJKMethods.h in Headers */,
+				F1CB92FD442D5291A412B055A319D530 /* NSString+MJKMethods.h in Headers */,
+				8DA18E9CE4D47CB370F9864463BE2DF9 /* NSString+MJKUISize.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +244,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				0D91255E20839764D4A26964F11C8CFA /* PBXTargetDependency */,
+				4D26229CE00ECA6ABCCF46DF83F7E285 /* PBXTargetDependency */,
 			);
 			name = "Pods-MJKNetworking_Example";
 			productName = "Pods-MJKNetworking_Example";
@@ -225,12 +253,12 @@
 		};
 		BA800DEE078F23FFCB53831C9E673D71 /* MJKNetworking */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E62E05EA00C8D8F97E205F14DC4F51FC /* Build configuration list for PBXNativeTarget "MJKNetworking" */;
+			buildConfigurationList = 25651F3855AC7D1140F74983D26C1AD8 /* Build configuration list for PBXNativeTarget "MJKNetworking" */;
 			buildPhases = (
-				3AC2573BE56253CC1D750B7BF391C86A /* Headers */,
-				564A330B7DA18D231854B569E14CBAD5 /* Sources */,
-				552CE4237230661873785F847EC48A54 /* Frameworks */,
-				C5B910C24DAEF87A11FAF4FBFE3F3FCC /* Resources */,
+				969A1A99D6384D7065369134F97341EB /* Headers */,
+				5B86A916F386176D47EF2444ADB2511D /* Sources */,
+				7A3EAEEA2CEC5D729025C7A6C8D0AE39 /* Frameworks */,
+				74CCC986EAF655953442AAA1DFF186D0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -277,7 +305,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C5B910C24DAEF87A11FAF4FBFE3F3FCC /* Resources */ = {
+		74CCC986EAF655953442AAA1DFF186D0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -295,27 +323,61 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		564A330B7DA18D231854B569E14CBAD5 /* Sources */ = {
+		5B86A916F386176D47EF2444ADB2511D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				124663E18A14FF258C8E6D43CF4C7893 /* MJKNetworking-dummy.m in Sources */,
-				6169F1797BC1B8E3FFE5922CA28E1C5B /* MJKNetworkManager.m in Sources */,
+				513C4D21F6996BA90A3ECFD5C0139051 /* MJKCountDownManger.m in Sources */,
+				2EC3A73D597E77BC060B9A51EF0CD394 /* MJKNetworking-dummy.m in Sources */,
+				DECD310A3FCE4DB55C618B1402DF8EE6 /* MJKNetworkManager.m in Sources */,
+				1986DCCBCDEB4F03C96B1EB12F6C56F8 /* NSDate+MJKMethods.m in Sources */,
+				87FB43D87C5FE74FFF985BD2DA0A126B /* NSString+MJKMethods.m in Sources */,
+				5F8DC6813B5789BB53CDB91FF3D8DC4E /* NSString+MJKUISize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0D91255E20839764D4A26964F11C8CFA /* PBXTargetDependency */ = {
+		4D26229CE00ECA6ABCCF46DF83F7E285 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MJKNetworking;
 			target = BA800DEE078F23FFCB53831C9E673D71 /* MJKNetworking */;
-			targetProxy = DD5C593926AC292B0AE90362F2A4BE89 /* PBXContainerItemProxy */;
+			targetProxy = AE2C1CBB9DE0D2DBCE539C356DC73863 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		01FE5CDEF948854CD404F651BE370B5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3928E787F46951CB30FD1E52ECECD85B /* MJKNetworking.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MJKNetworking/MJKNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MJKNetworking/MJKNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MJKNetworking/MJKNetworking.modulemap";
+				PRODUCT_MODULE_NAME = MJKNetworking;
+				PRODUCT_NAME = MJKNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -382,6 +444,37 @@
 			};
 			name = Debug;
 		};
+		5BE1B4AEB77F8EF5BC162AB0B4FADF1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 498CEC6D35413BB9C3D4335BE8C1DEFE /* MJKNetworking.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MJKNetworking/MJKNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MJKNetworking/MJKNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MJKNetworking/MJKNetworking.modulemap";
+				PRODUCT_MODULE_NAME = MJKNetworking;
+				PRODUCT_NAME = MJKNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		5E93ACEDA8363D724DF15DADC34DE260 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4FFCD9BC1C28DBE68960D5579D69CE6F /* Pods-MJKNetworking_Example.debug.xcconfig */;
@@ -413,37 +506,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		B8DA9E797BD20A1B0780E0D5911B17CE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 603D93B394DFBD11B6B083AFE473FC47 /* MJKNetworking.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MJKNetworking/MJKNetworking-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MJKNetworking/MJKNetworking-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MJKNetworking/MJKNetworking.modulemap";
-				PRODUCT_MODULE_NAME = MJKNetworking;
-				PRODUCT_NAME = MJKNetworking;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		C5FCA8102C6874C2B028F82BFB3C6809 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -477,36 +539,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		C6E730661CD85695660301475BECE7F8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C15E727BB97935D797D9B21E1AD286D4 /* MJKNetworking.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MJKNetworking/MJKNetworking-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MJKNetworking/MJKNetworking-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MJKNetworking/MJKNetworking.modulemap";
-				PRODUCT_MODULE_NAME = MJKNetworking;
-				PRODUCT_NAME = MJKNetworking;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -572,6 +604,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		25651F3855AC7D1140F74983D26C1AD8 /* Build configuration list for PBXNativeTarget "MJKNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01FE5CDEF948854CD404F651BE370B5F /* Debug */,
+				5BE1B4AEB77F8EF5BC162AB0B4FADF1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3856605BDE1E6E54479ECF04577D327A /* Build configuration list for PBXNativeTarget "Pods-MJKNetworking_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -586,15 +627,6 @@
 			buildConfigurations = (
 				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
 				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E62E05EA00C8D8F97E205F14DC4F51FC /* Build configuration list for PBXNativeTarget "MJKNetworking" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C6E730661CD85695660301475BECE7F8 /* Debug */,
-				B8DA9E797BD20A1B0780E0D5911B17CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
