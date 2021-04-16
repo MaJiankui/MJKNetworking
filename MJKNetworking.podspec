@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MJKNetworking'
 # 默认版本号
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
 # summary 需要修改后边的描述信息
   s.summary          = '这个库 MJKNetworking 的作用就是用来ddee的'
 
